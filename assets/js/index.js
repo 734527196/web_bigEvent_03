@@ -20,8 +20,8 @@ function getUserInfo() {
             if (res.status !== 0) {
                 return layui.layer.msg(res.message)
             }
-            console.log(res)
-            layui.layer.msg(res.message)
+            // console.log(res)
+            // layui.layer.msg(res.message)
             renderAvatar(res.data)
         }
     })
